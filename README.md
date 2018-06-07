@@ -1,6 +1,6 @@
 # pyconil-2018-pymodbus
 
-PyCon pymodbus lecture ( [Slides PDF](https://github.com/yaacov/pyconil-2018-pymodbus/blob/master/PyModbus%20-%20PyCon%20IL%202018.pdf) )
+PyCon pymodbus lecture ( [Slides](https://github.com/yaacov/pyconil-2018-pymodbus/blob/master/PyModbus%20-%20PyCon%20IL%202018.pdf) )
 
 ## [kitty-detector](https://github.com/yaacov/pyconil-2018-pymodbus/tree/master/kitty-detector)
 
