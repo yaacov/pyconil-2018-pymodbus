@@ -1,6 +1,6 @@
 # pyconil-2018-pymodbus
 
-A PyCon talk pymodbus, talk about the pros and cons of using serial communication in our modern publish-subscribe messaging age. 
+A PyCon talk about pymodbus, we discuss the pros and cons of using serial communication in our modern publish-subscribe messaging age. 
 
 In this talk we demo two input devices, a kitty-detector and a thermometer and one output device (led strip).
 We show how to query data from this devices and how to control them.
