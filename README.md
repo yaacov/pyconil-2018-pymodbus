@@ -14,6 +14,11 @@ PyCon pymodbus lecture ( [Slides](https://github.com/yaacov/pyconil-2018-pymodbu
 An input device based on a Raspberry pi, running Python opencv. This device outputs one integer modbus register
 with posible values of 0, 1 or 2. 0 indecate no face in device field of view, 1 indecate a face and 2 indecate a cat face.
 
+When detecting a cat, the kitty detector also write the cat found to disk, resolting in images like this:
+
+![cat](/kitty-detector/imgs/cat-1527880568.png?raw=true "cat") 
+![cat](/kitty-detector/imgs/cat-1527880580.png?raw=true "cat")
+
 http://opencv-python-tutroals.readthedocs.io/en/latest/
 
 #### Holding registers:
@@ -28,8 +33,7 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/
 An output device based on an arduino. This device emit pulsating colorful lights, pulse rate, color and elumination
 are controlled view modbus registers.
 
-https://github.com/adafruit/Adafruit_NeoPixel
-
+https://github.com/adafruit/Adafruit_NeoPixel  
 https://github.com/yaacov/ArduinoModbusSlave
 
 #### Holding registers:
@@ -47,8 +51,7 @@ https://github.com/yaacov/ArduinoModbusSlave
 
 An input device based on an arduino. This device mesure temperature and relative humidity.
 
-https://github.com/adafruit/DHT-sensor-library
-
+https://github.com/adafruit/DHT-sensor-library  
 https://github.com/yaacov/ArduinoModbusSlave
 
 #### Holding registers:
