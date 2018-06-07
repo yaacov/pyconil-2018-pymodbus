@@ -4,6 +4,8 @@ PyCon pymodbus lecture ( [Slides](https://github.com/yaacov/pyconil-2018-pymodbu
 
 ## [kitty-detector](https://github.com/yaacov/pyconil-2018-pymodbus/tree/master/kitty-detector)
 
+![kitty-detector](/kitty-detector/kitty-detector.jpg?raw=true "kitty-detector")
+
 An input device based on a Raspberry pi, running Python opencv. This device outputs one integer modbus register
 with posible values of 0, 1 or 2. 0 indecate no face in device field of view, 1 indecate a face and 2 indecate a cat face.
 
@@ -15,6 +17,8 @@ http://opencv-python-tutroals.readthedocs.io/en/latest/
 ```
 
 ## [mood-lights](https://github.com/yaacov/pyconil-2018-pymodbus/tree/master/mood-lights)
+
+![mood-lights](/mood-lights/arduino.jpg?raw=true "mood-lights")
 
 An output device based on an arduino. This device emit pulsating colorful lights, pulse rate, color and elumination
 are controlled view modbus registers.
@@ -33,6 +37,8 @@ https://github.com/yaacov/ArduinoModbusSlave
 6 - [W/R] Light Blue color ratio 0..255.
 ```
 ## [thermo](https://github.com/yaacov/pyconil-2018-pymodbus/tree/master/thermo)
+
+![thermo](/thermo/arduino.jpg?raw=true "thermo")
 
 An input device based on an arduino. This device mesure temperature and relative humidity.
 
