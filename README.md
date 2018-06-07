@@ -9,7 +9,11 @@ PyCon pymodbus lecture ( [Slides](https://github.com/yaacov/pyconil-2018-pymodbu
 ![kitty-detector](/kitty-detector/kitty-detector.jpg?raw=true "kitty-detector")
 
 An input device based on a Raspberry pi, running Python opencv. This device outputs one integer modbus register
-with posible values of 0, 1 or 2. 0 indecate no face in device field of view, 1 indecate a face and 2 indecate a cat face.
+with posible values of 0, 1 or 2.
+
+0 - indecate no face in device field of view.  
+1 - indecate a face (cat or none-cat).  
+2 - indecate a cat.
 
 When detecting a cat, the kitty detector also write the cat found to disk, resolting in images like this:
 
