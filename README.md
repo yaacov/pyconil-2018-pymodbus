@@ -1,5 +1,10 @@
 # pyconil-2018-pymodbus
 
+A PyCon talk pymodbus, talk about the pros and cons of using serial communication in our modern publish-subscribe messaging age. 
+
+In this talk we demo two input devices, a kitty-detector and a thermometer and one output device (led strip).
+We show how to query data from this devices and how to control them.
+
 PyCon pymodbus lecture ( [Slides](https://github.com/yaacov/pyconil-2018-pymodbus/blob/master/PyModbus%20-%20PyCon%20IL%202018.pdf) )
 
 ## [kitty-detector](https://github.com/yaacov/pyconil-2018-pymodbus/tree/master/kitty-detector)
